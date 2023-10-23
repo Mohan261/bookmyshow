@@ -1,0 +1,51 @@
+.nav-bar {
+  width: 100%;
+  background-color: #333545;
+}
+.nav-top {
+  height: 60px;
+  align-items: center;
+}
+.right-nav {
+  width: 50%;
+}
+.search-inpt {
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+}
+.nav-down {
+  color: #fff;
+  background-color: #222539;
+  padding: 15px 0;
+}
+.nav-right {
+  width: 50%;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.logo {
+  width: 115px;
+}
+.logo img {
+  width: 100%;
+}
+.sign-in-btn {
+  margin: 0 15px;
+  color: #fff;
+  border: none;
+  background-color: #f84464;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.btn-nav {
+  background-color: transparent;
+  border: none;
+  color: #c6c6c9;
+}

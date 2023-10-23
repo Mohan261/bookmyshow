@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Raththam",
+      "genre": "Action/Drama/Thriller",
+      "ageRating": "UA",
+      "language": "Tamil",
+      "rating": 7.9,
+      "votes": 1.4,
+      "img": "./assets/raththam.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Irugapatru",
+      "genre": "Drama/Romantic",
+      "ageRating": "U",
+      "language": "Tamil",
+      "rating": 9.5,
+      "votes": 4.5,
+      "img": "./assets/irugapatru.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Chithha",
+      "genre": "Drama/Thriller",
+      "ageRating": "U",
+      "language": "Tamil",
+      "rating": 9.4,
+      "votes": 12.5,
+      "img": "./assets/chithha.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Chandramukhi 2",
+      "genre": "Comedy/Horror",
+      "ageRating": "UA",
+      "language": "Tamil,Telugu,Hindi",
+      "rating": 5.2,
+      "votes": 31.6,
+      "img": "./assets/chandramukhi2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mark Antony",
+      "genre": "Sci-Fi/Thriller",
+      "ageRating": "UA",
+      "language": "Tamil,Hindi,Telugu",
+      "rating": 8.3,
+      "votes": 69.3,
+      "img": "./assets/markantony.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Road",
+      "genre": "Drama/Thriller",
+      "ageRating": "UA",
+      "language": "Tamil",
+      "rating": 7.7,
+      "votes": 844,
+      "img": "./assets/theroad.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Iraivan",
+      "genre": "Crime/Psychological/Thriller",
+      "ageRating": "A",
+      "language": "Tamil",
+      "rating": 5.8,
+      "votes": 8.4,
+      "img": "./assets/iraivan.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Jawan",
+      "genre": "Action/Thriller",
+      "ageRating": "UA",
+      "language": "Tamil,Hindi,Telugu",
+      "rating": 8.4,
+      "votes": 58.4,
+      "img": "./assets/jawan.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Creator",
+      "genre": "Sci-Fi/Thriller",
+      "ageRating": "UA",
+      "language": "English",
+      "rating": 8.4,
+      "votes": 4.4,
+      "img": "./assets/thecreator.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Nun II",
+      "genre": "Horror/Mystery/Thriller",
+      "ageRating": "A",
+      "language": "English,Tamil,Hindi,Telugu",
+      "rating": 6.8,
+      "votes": 53.5,
+      "img": "./assets/thenun2.jpg"
+    }
+  ]
+}

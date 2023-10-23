@@ -1,0 +1,32 @@
+.banner-sec {
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+}
+.prev {
+  position: absolute;
+  top: 10px;
+  left: -102%;
+}
+.center {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transform: translateX(0%);
+  transition: all ease;
+}
+.next {
+  position: absolute;
+  top: 10px;
+  left: 102%;
+}

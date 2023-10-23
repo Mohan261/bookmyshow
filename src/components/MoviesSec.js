@@ -1,0 +1,23 @@
+import React from "react";
+import MovieCard from "./MovieCard";
+import Data from "../data.json";
+import Banners from "./Banners";
+const MoviesSec = () => {
+  const { data } = Data;
+  console.log(data);
+  return (
+    <>
+      <Banners />
+      <div className="container">
+        <h1>Recommended Movies</h1>
+        <div className="d-flex flex-wrap gap-15p">
+          {data.map((list) => (
+            <MovieCard key={list.id} data={list} />
+          ))}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default MoviesSec;
