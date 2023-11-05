@@ -1,0 +1,217 @@
+{
+  "theaters": {
+    "theaterName": "PVR: Escape-Express, Avenue Mall",
+    "seatTypes": [
+      {
+        "seatType": "ELITE-Rs.179.00",
+        "seat": [
+          {
+            "rowId": "A",
+            "rowNo": [
+              { "seatId": "a1", "seatNo": 1, "seatBooked": false },
+              { "seatId": "a2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "a3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "a4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "a5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "a6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "a7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "a8", "seatNo": 8, "seatBooked": false },
+              { "seatId": "a9", "seatNo": 9, "seatBooked": false },
+              { "seatId": "a10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "a11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "a12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "a13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "a14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "a15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "B",
+            "rowNo": [
+              { "seatId": "b1", "seatNo": 1, "seatBooked": false },
+              { "seatId": "b2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "b3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "b4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "b5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "b6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "b7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "b8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "b9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "b10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "b11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "b12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "b13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "b14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "b15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "C",
+            "rowNo": [
+              { "seatId": "c1", "seatNo": 1, "seatBooked": false },
+              { "seatId": "c2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "c3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "c4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "c5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "c6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "c7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "c8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "c9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "c10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "c11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "c12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "c13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "c14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "c15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "D",
+            "rowNo": [
+              { "seatId": "d1 ", "seatNo": 1, "seatBooked": false },
+              { "seatId": "d2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "d3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "d4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "d5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "d6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "d7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "d8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "d9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "d10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "d11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "d12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "d13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "d14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "d15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "E",
+            "rowNo": [
+              { "seatId": "e1", "seatNo": 1, "seatBooked": false },
+              { "seatId": "e2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "e3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "e4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "e5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "e6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "e7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "e8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "e9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "e10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "e11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "e12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "e13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "e14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "e15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "F",
+            "rowNo": [
+              { "seatId": "f1", "seatNo": 1, "seatBooked": false },
+              { "seatId": "f2", "seatNo": 2, "seatBooked": false },
+              { "seatId": "f3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "f4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "f5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "f6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "f7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "f8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "f9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "f10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "f11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "f12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "f13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "f14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "f15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "G",
+            "rowNo": [
+              { "seatId": "g1", "seatNo": 0, "seatBooked": false },
+              { "seatId": "g2", "seatNo": 0, "seatBooked": false },
+              { "seatId": "g3", "seatNo": 0, "seatBooked": false },
+              { "seatId": "g4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "g5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "g6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "g7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "g8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "g9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "g10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "g11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "g12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "g13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "g14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "g15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "H",
+            "rowNo": [
+              { "seatId": "h1", "seatNo": 0, "seatBooked": false },
+              { "seatId": "h2", "seatNo": 0, "seatBooked": false },
+              { "seatId": "h3", "seatNo": 0, "seatBooked": false },
+              { "seatId": "h4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "h5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "h6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "h7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "h8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "h9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "h10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "h11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "h12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "h13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "h14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "h15", "seatNo": 15, "seatBooked": false }
+            ]
+          },
+          {
+            "rowId": "I",
+            "rowNo": [
+              { "seatId": "i1", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i2", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i3", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i4", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "i6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "i7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "i8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "i10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "i11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "i12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "i13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "i14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "i15", "seatNo": 0, "seatBooked": false }
+            ]
+          }
+        ]
+      },
+      {
+        "seatType": "BUDGET-Rs.60.12",
+        "seat": [
+          {
+            "rowId": "J",
+            "rowNo": [
+              { "seatId": "j1", "seatNo": 0, "seatBooked": false },
+              { "seatId": "j2", "seatNo": 0, "seatBooked": false },
+              { "seatId": "j3", "seatNo": 3, "seatBooked": false },
+              { "seatId": "j4", "seatNo": 4, "seatBooked": false },
+              { "seatId": "j5", "seatNo": 5, "seatBooked": false },
+              { "seatId": "j6", "seatNo": 6, "seatBooked": false },
+              { "seatId": "j7", "seatNo": 7, "seatBooked": false },
+              { "seatId": "j8", "seatNo": 0, "seatBooked": false },
+              { "seatId": "j9", "seatNo": 0, "seatBooked": false },
+              { "seatId": "j10", "seatNo": 10, "seatBooked": false },
+              { "seatId": "j11", "seatNo": 11, "seatBooked": false },
+              { "seatId": "j12", "seatNo": 12, "seatBooked": false },
+              { "seatId": "j13", "seatNo": 13, "seatBooked": false },
+              { "seatId": "j14", "seatNo": 14, "seatBooked": false },
+              { "seatId": "j15", "seatNo": 15, "seatBooked": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

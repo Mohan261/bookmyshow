@@ -30,3 +30,50 @@
   top: 10px;
   left: 102%;
 }
+.ban {
+  position: relative;
+  z-index: -1;
+}
+.pre-btn {
+  position: absolute;
+  left: 0px;
+  top: 35%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: inline-block;
+  padding: 6px 0px 6px 14px;
+  border-radius: 0px 6px 6px 0;
+  cursor: pointer;
+}
+.next-btn {
+  position: absolute;
+  right: 0px;
+  top: 35%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 6px 12px 6px 6px;
+  border-radius: 6px 0 0 6px;
+  cursor: pointer;
+}
+.indicators {
+  width: auto;
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  z-index: 99;
+  gap: 6px;
+}
+.indicate {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.indicators .active {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff !important;
+}

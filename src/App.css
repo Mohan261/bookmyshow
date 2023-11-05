@@ -7,6 +7,12 @@
   width: 80%;
   margin: 0 auto;
 }
+.d-block{
+display: block;
+}
+.d-none{
+  display: none;
+}
 .d-flex {
   display: flex;
 }
@@ -15,6 +21,9 @@
 }
 .flex-dir {
   flex-direction: column;
+}
+.gap-10p{
+  gap: 10px;
 }
 .gap-15p {
   gap: 15px;

@@ -1,0 +1,70 @@
+.seat-nav {
+  width: 100%;
+  height: 75px;
+  background-color: #1f2533;
+  color: #fff;
+  padding: 15px 50px;
+  position: relative;
+}
+.arrow-btn {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  background-color: transparent;
+  border: none;
+}
+.close-btn {
+  color: #f2f2f2;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: 300;
+  position: absolute;
+  right: 33px;
+  top: 18px;
+}
+.ticket-edit {
+  position: absolute;
+  top: 21px;
+  right: 90px;
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  padding: 4px 6px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.seat-time {
+  width: 100%;
+  height: 80px;
+  background-color: #f2f2f2;
+}
+.times-container {
+  width: 50%;
+  height: auto;
+  padding-top: 15px;
+  margin-left: 70px;
+  position: relative;
+}
+.back {
+  position: absolute;
+  left: -30px;
+  top: 20px;
+  background-color: #f2f2f2;
+  color: #9b9b9b;
+  border: none;
+}
+.forward {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: #f2f2f2;
+  color: #9b9b9b;
+  border: none;
+}
+.seat-layout-bg{
+  width: 100%;
+  height: 80vh;
+  background-color: #fafafa;
+}

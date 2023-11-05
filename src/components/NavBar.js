@@ -3,13 +3,18 @@ import "./NavBar.css";
 import logo from "../assets/bookmyshow-logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { useNavigate } from "react-router-dom";
 const NavBar = () => {
+  const nav = useNavigate();
+  function handleHome() {
+    nav("/*");
+  }
   return (
     <div className="nav-bar">
       <div className="container">
         <div className="nav-top d-flex justify-content-space-between">
           <div className="right-nav d-flex justify-content-space-between">
-            <div className="logo">
+            <div className="logo" onClick={handleHome}>
               <img src={logo} alt="logo" />
             </div>
             <input

@@ -2,11 +2,14 @@ import React from "react";
 import MovieCard from "./MovieCard";
 import Data from "../data.json";
 import Banners from "./Banners";
+import NavBar from "./NavBar";
 const MoviesSec = () => {
   const { data } = Data;
   console.log(data);
   return (
     <>
+      <NavBar />
+
       <Banners />
       <div className="container">
         <h1>Recommended Movies</h1>
