@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/bookmyshow/home/static/css/main.382a6f17.css",
-    "main.js": "/bookmyshow/home/static/js/main.8f9e047b.js",
+    "main.js": "/bookmyshow/home/static/js/main.d9c734a6.js",
     "static/js/787.fc55dd07.chunk.js": "/bookmyshow/home/static/js/787.fc55dd07.chunk.js",
     "static/media/bookmyshow-logo.svg": "/bookmyshow/home/static/media/bookmyshow-logo.2a8c10b2191abb0e990680f8b26e524e.svg",
     "index.html": "/bookmyshow/home/index.html",
     "main.382a6f17.css.map": "/bookmyshow/home/static/css/main.382a6f17.css.map",
-    "main.8f9e047b.js.map": "/bookmyshow/home/static/js/main.8f9e047b.js.map",
+    "main.d9c734a6.js.map": "/bookmyshow/home/static/js/main.d9c734a6.js.map",
     "787.fc55dd07.chunk.js.map": "/bookmyshow/home/static/js/787.fc55dd07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.382a6f17.css",
-    "static/js/main.8f9e047b.js"
+    "static/js/main.d9c734a6.js"
   ]
 }
