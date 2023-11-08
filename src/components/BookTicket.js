@@ -36,7 +36,6 @@ const BookTicket = () => {
                 {list.toLocaleUpperCase()}
               </div>
             ))}
-            {/* <div className="genre margin-right-15p">ROMANTIC</div> */}
           </div>
         </div>
       </div>

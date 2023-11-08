@@ -8,12 +8,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/bookmyshow" element={<Bookmyshow/>}>
+        <Route path="/bookmyshow" element={<Bookmyshow />}>
           <Route path="home" element={<MoviesSec />} />
           <Route path="book/:id" element={<BookTicket />} />
           <Route path="book/:id/seat" element={<SeatLayout />} />
+          <Route path="*" element={<MoviesSec />} />
         </Route>
-        <Route path="/*" element={<MoviesSec />} />
       </Routes>
     </BrowserRouter>
   );

@@ -6,7 +6,7 @@ import { addCharityAmt, removeCharityAmt } from "../Slicer/TicketSlicer";
 const PaymentSec = () => {
   const [exp, setExp] = useState(false);
   const dispatch = useDispatch();
-  const { ticketPrice, baseAmt, taxAmt, charityAmt } = useSelector(
+  const { ticketPrice, baseAmt, taxAmt, charityAmt, seatsBooked } = useSelector(
     (store) => store.ticketbook
   );
   return (
@@ -16,7 +16,13 @@ const PaymentSec = () => {
           <h3 className="pay-title">BOOKING SUMMARY</h3>
           <div className="d-flex justify-content-space-between">
             <p>
-              EL-E20,E19 <span className="ticket-no">( 2 Tickets )</span>
+              EL-
+              {seatsBooked.map((list) => (
+                <span>{list.slice(0, -1).toLocaleUpperCase()},</span>
+              ))}
+              <span className="ticket-no">
+                ( {seatsBooked.length} Tickets )
+              </span>
             </p>
             <p>Rs.{ticketPrice}</p>
           </div>
