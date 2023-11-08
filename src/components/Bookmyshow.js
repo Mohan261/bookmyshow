@@ -5,7 +5,6 @@ import MoviesSec from "./MoviesSec";
 const Bookmyshow = () => {
   return (
     <div>
-      <MoviesSec />
       <Outlet />
     </div>
   );
