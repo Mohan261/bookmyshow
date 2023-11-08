@@ -31,22 +31,7 @@ const SeatNav = () => {
             <EditOutlinedIcon sx={{ fontSize: "16px", marginLeft: "10px" }} />
           </button>
         </div>
-        <div className="seat-time">
-          <div className="times-container d-flex gap-10p">
-            <ShowTime />
-            <ShowTime />
-            <ShowTime />
-            <ShowTime />
-            <ShowTime />
-            <ShowTime />
-            <button className="back">
-              <ArrowBackIos />
-            </button>
-            <button className="forward">
-              <ArrowForwardIos />
-            </button>
-          </div>
-        </div>
+        
       </header>
     </>
   );

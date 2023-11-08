@@ -13,7 +13,9 @@ const SeatView = () => {
     <div className="seat-view">
       {theaters.seatTypes.map((list) => (
         <div key={list.seatType}>
-          <p>{list.seatType}</p>
+          <p>
+            {list.seatType}-Rs.{list.seatPrice}
+          </p>
           <table>
             <tbody>
               {list.seat.map((list) => (
@@ -21,7 +23,11 @@ const SeatView = () => {
                   <td>{list.rowId}</td>
                   <td className="d-flex row">
                     {list.rowNo.map((list) => (
-                      <SeatComp seat={list.seatNo} key={list.seatId} />
+                      <SeatComp
+                        seat={list.seatNo}
+                        seatId={list.seatId}
+                        key={list.seatId}
+                      />
                     ))}
                   </td>
                 </tr>
@@ -32,7 +38,7 @@ const SeatView = () => {
       ))}
       <div className="screen">
         <img src="/assets/screen.png" alt="screen" />
-        <p>All eyes this way please!</p>
+        <p className="screen-text">All eyes this way please!</p>
       </div>
     </div>
   );
