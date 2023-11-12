@@ -2,9 +2,12 @@ import React from "react";
 import "./MovieCard.css";
 import { Star } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { changeMovie } from "../Slicer/TicketSlicer";
 const MovieCard = ({ data }) => {
+  const dispatch = useDispatch()
   return (
-    <div className="movie-card">
+    <div className="movie-card" onClick={()=>dispatch(changeMovie(data.title))}>
       <Link to={`/bookmyshow/book/${data.title}`}>
         <div className="movie-img">
           <img src={data.img} alt={data.title} />

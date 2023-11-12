@@ -1,6 +1,12 @@
 import React from "react";
 import ShowItem from "./ShowItem";
+import Data from "../data.json";
+import { useParams } from "react-router-dom";
 const Shows = () => {
+  const { data } = Data;
+  const { id } = useParams();
+  let movie = data.find((list) => id === list.title);
+  console.log(movie);
   return (
     <div className="shows-sec">
       <div className="container">
@@ -15,10 +21,9 @@ const Shows = () => {
               <p className="p-1">SUBTITLES LANGUAGE</p>
             </div>
           </div>
-          <ShowItem />
-          <ShowItem />
-          <ShowItem />
-          <ShowItem />
+          {movie.theatersList.map((list) => (
+            <ShowItem key={list.theaterId} data={list} />
+          ))}
         </div>
       </div>
     </div>

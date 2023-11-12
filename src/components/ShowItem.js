@@ -5,7 +5,8 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import food from "../assets/food.png";
 import mticket from "../assets/m-ticket.png";
 import ShowTime from "./ShowTime";
-const ShowItem = () => {
+const ShowItem = ({ data }) => {
+  console.log(data);
   return (
     <div className="show-item d-flex">
       <div className="show-item-left d-flex">
@@ -14,7 +15,7 @@ const ShowItem = () => {
         </div>
         <div className="location d-flex flex-dir">
           <div className="location-name d-flex gap-15p">
-            <p>PVR: Escape-Express,Avenue Mall</p>
+            <p>{data.theaterName}</p>
             <button className="info-btn">
               <InfoOutlinedIcon sx={{ fontSize: "17px" }} />
               INFO
@@ -34,18 +35,13 @@ const ShowItem = () => {
       </div>
       <div className="show-item-right">
         <div className="show-timing d-flex gap-15p flex-wrap">
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
-          <ShowTime />
+          {data.timings.map((list) => (
+            <ShowTime
+              key={data.theaterId + list}
+              time={list}
+              id={data.theaterId + "-" + list}
+            />
+          ))}
         </div>
         <div className="cancel-info d-flex">
           <div className="circle yellow"></div>

@@ -1,22 +1,22 @@
 import React from "react";
-import ShowTime from "./ShowTime";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import SeatDate from "./SeatDate";
+import { useSelector } from "react-redux";
 
 const SeatTimeNav = () => {
+  const { timeArr } = useSelector((store) => store.ticketbook);
   return (
     <div className="seat-time">
       <div className="times-container d-flex gap-10p">
-        <ShowTime />
-        <ShowTime />
-        <ShowTime />
-        <ShowTime />
-        <ShowTime />
-        <ShowTime />
+        {timeArr.map((list, indx) => (
+          <SeatDate time={list} key={indx + "-" + list} />
+        ))}
+
         <button className="back">
           <ArrowBackIos />
         </button>
         <button className="forward">
-          <ArrowForwardIos   />
+          <ArrowForwardIos />
         </button>
       </div>
     </div>

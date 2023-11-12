@@ -1,14 +1,19 @@
 import React from "react";
 import "./ShowTime.css";
 import { useNavigate } from "react-router-dom";
-const ShowTime = () => {
+import { useDispatch } from "react-redux";
+import { selectShow } from "../Slicer/TicketSlicer";
+const ShowTime = ({ time, id }) => {
   let nav = useNavigate();
-  function handleShowTime() {
+  const dispatch = useDispatch();
+
+  function handleShowTime(value) {
     nav("seat");
+    dispatch(selectShow(value));
   }
   return (
-    <button className="showtime-btn" onClick={handleShowTime}>
-      <p>10:00 AM</p>
+    <button className="showtime-btn" onClick={(e) => handleShowTime(id)}>
+      <p>{time}</p>
       <p>DOLBY ATMOS</p>
     </button>
   );

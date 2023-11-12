@@ -3,103 +3,372 @@
     {
       "id": 1,
       "title": "Raththam",
-      "genre": ["Action","Drama","Thriller"],
+      "genre": ["Action", "Drama", "Thriller"],
       "ageRating": "UA",
       "language": "Tamil",
       "rating": 7.9,
       "votes": 1.4,
-      "img": "./assets/raththam.jpg"
+      "img": "./assets/raththam.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Irugapatru",
-      "genre": ["Drama","Romantic"],
+      "genre": ["Drama", "Romantic"],
       "ageRating": "U",
       "language": "Tamil",
       "rating": 9.5,
       "votes": 4.5,
-      "img": "./assets/irugapatru.jpg"
+      "img": "./assets/irugapatru.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 3,
       "title": "Chithha",
-      "genre": ["Drama","Thriller"],
+      "genre": ["Drama", "Thriller"],
       "ageRating": "U",
       "language": "Tamil",
       "rating": 9.4,
       "votes": 12.5,
-      "img": "./assets/chithha.jpg"
+      "img": "./assets/chithha.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 4,
       "title": "Chandramukhi 2",
-      "genre": ["Comedy","Horror"],
+      "genre": ["Comedy", "Horror"],
       "ageRating": "UA",
       "language": "Tamil,Telugu,Hindi",
       "rating": 5.2,
       "votes": 31.6,
-      "img": "./assets/chandramukhi2.jpg"
+      "img": "./assets/chandramukhi2.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Mark Antony",
-      "genre": ["Sci-Fi","Thriller"],
+      "genre": ["Sci-Fi", "Thriller"],
       "ageRating": "UA",
       "language": "Tamil,Hindi,Telugu",
       "rating": 8.3,
       "votes": 69.3,
-      "img": "./assets/markantony.jpg"
+      "img": "./assets/markantony.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 6,
       "title": "The Road",
-      "genre": ["Drama","Thriller"],
+      "genre": ["Drama", "Thriller"],
       "ageRating": "UA",
       "language": "Tamil",
       "rating": 7.7,
       "votes": 844,
-      "img": "./assets/theroad.jpg"
+      "img": "./assets/theroad.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Iraivan",
-      "genre": ["Crime","Psychological","Thriller"],
+      "genre": ["Crime", "Psychological", "Thriller"],
       "ageRating": "A",
       "language": "Tamil",
       "rating": 5.8,
       "votes": 8.4,
-      "img": "./assets/iraivan.jpg"
+      "img": "./assets/iraivan.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 8,
       "title": "Jawan",
-      "genre": ["Action","Thriller"],
+      "genre": ["Action", "Thriller"],
       "ageRating": "UA",
       "language": "Tamil, Hindi, Telugu",
       "rating": 8.4,
       "votes": 58.4,
-      "img": "./assets/jawan.jpg"
+      "img": "./assets/jawan.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 9,
       "title": "The Creator",
-      "genre": ["Sci-Fi","Thriller"],
+      "genre": ["Sci-Fi", "Thriller"],
       "ageRating": "UA",
       "language": "English",
       "rating": 8.4,
       "votes": 4.4,
-      "img": "./assets/thecreator.jpg"
+      "img": "./assets/thecreator.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     },
     {
       "id": 10,
       "title": "The Nun II",
-      "genre": ["Horror","Mystery","Thriller"],
+      "genre": ["Horror", "Mystery", "Thriller"],
       "ageRating": "A",
       "language": "English,Tamil,Hindi,Telugu",
       "rating": 6.8,
       "votes": 53.5,
-      "img": "./assets/thenun2.jpg"
+      "img": "./assets/thenun2.jpg",
+      "theatersList": [
+        {
+          "theaterId": "t01",
+          "theaterName": "PVR: Escape-Express,Avenue Mall",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t02",
+          "theaterName": "INOX: LUXE Phoenix Market City, Velachery",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t03",
+          "theaterName": "INOX: Chennai Citi Centre, Dr. RK Salai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t04",
+          "theaterName": "MAYAJAAL Multiplex: ECR, Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        },
+        {
+          "theaterId": "t05",
+          "theaterName": "PVR: SKLS Galaxy Mall, Red Hills Chennai",
+          "timings": ["10:00 AM", "1:00 PM", "4:00 PM", "7:00 PM", "12:00 AM"]
+        }
+      ]
     }
   ]
-  
 }

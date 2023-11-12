@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+import Data from "../data.json";
 const initialState = {
   seatCount: 0,
   seatActive: true,
@@ -9,6 +9,11 @@ const initialState = {
   baseAmt: 0,
   taxAmt: 0,
   charityAmt: 0,
+  screenId: 0,
+  screenName: "",
+  movieName: "",
+  time: "",
+  timeArr: [],
 };
 const ticketSlicer = createSlice({
   name: "ticketbook",
@@ -37,11 +42,26 @@ const ticketSlicer = createSlice({
       state.taxAmt = Math.round(state.baseAmt * 0.18);
       state.charityAmt = state.seatsBooked.length;
     },
+    changeMovie(state, action) {
+      state.movieName = action.payload;
+    },
     addCharityAmt(state, action) {
       state.charityAmt = state.seatsBooked.length;
     },
     removeCharityAmt(state, action) {
       state.charityAmt = 0;
+    },
+    selectShow(state, action) {
+      state.screenId = action.payload;
+      let { data } = Data;
+      let movie = data.find((list) => state.movieName === list.title);
+      let arr = state.screenId.split("-");
+      state.time = arr[1];
+      let theater = movie.theatersList.find(
+        (list) => arr[0] === list.theaterId
+      );
+      state.screenName = theater.theaterName;
+      state.timeArr = theater.timings;
     },
   },
 });
@@ -52,5 +72,7 @@ export const {
   addCharityAmt,
   removeCharityAmt,
   changePayActive,
+  selectShow,
+  changeMovie,
 } = ticketSlicer.actions;
 export default ticketSlicer.reducer;
