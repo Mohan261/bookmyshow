@@ -3,6 +3,7 @@ import MovieCard from "./MovieCard";
 import Data from "../data.json";
 import Banners from "./Banners";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 const MoviesSec = () => {
   const { data } = Data;
   console.log(data);
@@ -19,6 +20,7 @@ const MoviesSec = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

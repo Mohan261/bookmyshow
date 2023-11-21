@@ -1,5 +1,6 @@
 import React from "react";
 import SeatComp from "./SeatComp";
+import screenImg from "../assets/screen.png";
 import "./SeatView.css";
 import Data from "../theater.json";
 import { useSelector } from "react-redux";
@@ -37,7 +38,7 @@ const SeatView = () => {
         </div>
       ))}
       <div className="screen">
-        <img src="/assets/screen.png" alt="screen" />
+        <img src={screenImg} alt="screen" />
         <p className="screen-text">All eyes this way please!</p>
       </div>
     </div>

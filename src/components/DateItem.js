@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./DateItem.css"
 const DateItem = ({ data }) => {
   let dateStr = data.split(" ");
   return (

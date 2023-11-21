@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./TicketCount.css";
 import { useDispatch, useSelector } from "react-redux";
 import { countSeat, toggleSeat } from "../Slicer/TicketSlicer";
+import countImg from "../assets/count.png";
 const TicketCount = () => {
   const [sCount, setCount] = useState(2);
   // const countActive = false;
@@ -17,7 +18,7 @@ const TicketCount = () => {
       <div className="ticket-count">
         <div className="count-card">
           <p>How many seats?</p>
-          <img className="count-img" src="/assets/count.png" alt="count" />
+          <img className="count-img" src={countImg} alt="count" />
           <div className="d-flex gap-15p">
             <div
               className={`${sCount === 1 ? "num-active" : "num"} `}

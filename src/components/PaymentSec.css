@@ -78,8 +78,7 @@
 }
 .accord-btn {
   background-color: transparent;
-  width: fit-content;
-  height: fit-content;
+  display: flex;
   border-radius: 50%;
   border: 1px solid #5f5d5d;
   width: 17px;

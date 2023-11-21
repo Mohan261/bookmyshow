@@ -1,0 +1,19 @@
+.date {
+  background-color: #f84464;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+.day {
+  font-size: 10px;
+  font-weight: 500;
+}
+.d-date {
+  font-size: 16px;
+  font-weight: 500;
+}
+.month {
+  font-size: 10px;
+  font-weight: 500;
+}

@@ -6,7 +6,7 @@ import DateItem from "./DateItem";
 import SearchIcon from "@mui/icons-material/Search";
 import Shows from "./Shows";
 import Data from "../data.json";
-
+import Footer from "./Footer";
 import { useParams } from "react-router-dom";
 import NavBar from "./NavBar";
 const BookTicket = () => {
@@ -61,6 +61,7 @@ const BookTicket = () => {
         </div>
       </div>
       <Shows />
+      <Footer />
     </>
   );
 };
