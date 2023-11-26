@@ -50,3 +50,9 @@
   border: none;
   color: #c6c6c9;
 }
+.nav-left{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  gap: 10px;
+}

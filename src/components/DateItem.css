@@ -1,9 +1,12 @@
-.date {
+.date-active {
   background-color: #f84464;
   color: #fff;
   padding: 4px 12px;
   border-radius: 8px;
   text-align: center;
+}
+.date{
+  padding: 4px 12px;
 }
 .day {
   font-size: 10px;

@@ -9,6 +9,7 @@ import Data from "../data.json";
 import Footer from "./Footer";
 import { useParams } from "react-router-dom";
 import NavBar from "./NavBar";
+import { ArrowDownward, ArrowDropDown, ExpandMore } from "@mui/icons-material";
 const BookTicket = () => {
   let { data } = Data;
   let date = new Date();
@@ -52,9 +53,13 @@ const BookTicket = () => {
               <ArrowForwardIosIcon />
             </div>
             <div className="filters-nav d-flex">
-              <div className="movie-ver">TAMIL-2D</div>
-              <div className="movie-ver">TAMIL-2D</div>
-              <div className="movie-ver">TAMIL-2D</div>
+              <div className="movie-ver">
+                Tamil-2D <ExpandMore sx={{ fontSize: "16px" }} />
+              </div>
+              <div className="movie-range">
+                Filter Price Range <ExpandMore sx={{ fontSize: "16px" }} />
+              </div>
+              <div className="movie-show">Filter Show Timings</div>
               <SearchIcon />
             </div>
           </div>

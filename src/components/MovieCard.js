@@ -18,7 +18,7 @@ const MovieCard = ({ data }) => {
           </div>
         </div>
         <div className="movies-details">
-          <p>{data.title}</p>
+          <p className="movie-title-1">{data.title}</p>
           <p>{data.genre}</p>
         </div>
       </Link>
