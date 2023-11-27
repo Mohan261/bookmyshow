@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bookmyshow/static/css/main.e9a2b207.css",
-    "main.js": "/bookmyshow/static/js/main.287a6316.js",
+    "main.css": "/bookmyshow/static/css/main.81740056.css",
+    "main.js": "/bookmyshow/static/js/main.5d07ea5c.js",
     "static/js/787.fc55dd07.chunk.js": "/bookmyshow/static/js/787.fc55dd07.chunk.js",
     "static/media/count.png": "/bookmyshow/static/media/count.e55be4ad07c189e6bde6.png",
     "static/media/tickets-ticket.svg": "/bookmyshow/static/media/tickets-ticket.2d6c06368a8f6bf0c09dab6f1016971c.svg",
@@ -10,12 +10,12 @@
     "static/media/call-center.svg": "/bookmyshow/static/media/call-center.3bdc2142eac82c246094b7c893aa3bdc.svg",
     "static/media/hut.svg": "/bookmyshow/static/media/hut.8fc32dffc231dc123c3be71c1f287b50.svg",
     "index.html": "/bookmyshow/index.html",
-    "main.e9a2b207.css.map": "/bookmyshow/static/css/main.e9a2b207.css.map",
-    "main.287a6316.js.map": "/bookmyshow/static/js/main.287a6316.js.map",
+    "main.81740056.css.map": "/bookmyshow/static/css/main.81740056.css.map",
+    "main.5d07ea5c.js.map": "/bookmyshow/static/js/main.5d07ea5c.js.map",
     "787.fc55dd07.chunk.js.map": "/bookmyshow/static/js/787.fc55dd07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9a2b207.css",
-    "static/js/main.287a6316.js"
+    "static/css/main.81740056.css",
+    "static/js/main.5d07ea5c.js"
   ]
 }
