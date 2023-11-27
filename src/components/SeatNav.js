@@ -9,6 +9,13 @@ const SeatNav = () => {
     (store) => store.ticketbook
   );
   const dispatch = useDispatch();
+  const d = new Date();
+  const td = d.getDate();
+  const {bookDate}=useSelector((store)=>store.ticketbook);
+  const d1=new Date();
+  d1.setDate(bookDate);
+  const d1Str=d1.toDateString();
+  const arr = d1Str.split(" "); 
   return (
     <>
       <header>
@@ -18,7 +25,7 @@ const SeatNav = () => {
             <div className="info-box">UA</div>
           </div>
           <p>
-            {screenName} | Today, 28 Oct, {time}
+            {screenName} | {td==bookDate?<span>Today</span>:<span>{arr[0]}</span>}, <span>{arr[2  ]}</span> <span>{arr[1]}</span>, {time}
           </p>
           <button className="arrow-btn">
             <ArrowBackIos sx={{ color: "#fff" }} />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./PaymentSec.css";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
-import { addCharityAmt, removeCharityAmt } from "../Slicer/TicketSlicer";
+import { addCharityAmt, changePaySuccess, removeCharityAmt } from "../Slicer/TicketSlicer";
 const PaymentSec = () => {
   const [exp, setExp] = useState(false);
   const dispatch = useDispatch();
@@ -90,7 +90,7 @@ const PaymentSec = () => {
         <div className="g-circle circle-l"></div>
         <div className="g-circle circle-r"></div>
       </div>
-      <button className="proceed-btn d-flex justify-content-space-between">
+      <button className="proceed-btn d-flex justify-content-space-between" onClick={()=>dispatch(changePaySuccess())}>
         <p>TOTAL:Rs.{ticketPrice + baseAmt + taxAmt + charityAmt}</p>
         <p>PROCEED</p>
       </button>

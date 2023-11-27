@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import "./Banners.css";
 import ArrowBackIos from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIos from "@mui/icons-material/ArrowForwardIos";
+import { useEffect } from "react";
 const Banners = () => {
   const [prev, setPrev] = useState(1);
   const [curr, setCurr] = useState(2);
   const [next, setnext] = useState(3);
+useEffect(() => {
+  let slide= setInterval(handleNext,5000)
 
-  // setInterval(handleNext, 5000);
+  return () => {
+    clearInterval(slide);
+  }
+}, [prev],[curr],[next])
+
   function handlePrev() {
     if (prev === 1) {
       setPrev(4);

@@ -47,7 +47,7 @@ const BookTicket = () => {
               <ArrowBackIosIcon />
               <div className="dates d-flex gap-15p">
                 {dateArr.map((list, ind) => (
-                  <DateItem key={ind} data={list} />
+                  <DateItem key={ind} data={list}/>
                 ))}
               </div>
               <ArrowForwardIosIcon />

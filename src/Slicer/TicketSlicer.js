@@ -14,6 +14,8 @@ const initialState = {
   movieName: "",
   time: "",
   timeArr: [],
+  bookDate:0,
+  paySuccess:false,
 };
 const ticketSlicer = createSlice({
   name: "ticketbook",
@@ -44,6 +46,7 @@ const ticketSlicer = createSlice({
     },
     changeMovie(state, action) {
       state.movieName = action.payload;
+
     },
     addCharityAmt(state, action) {
       state.charityAmt = state.seatsBooked.length;
@@ -63,6 +66,12 @@ const ticketSlicer = createSlice({
       state.screenName = theater.theaterName;
       state.timeArr = theater.timings;
     },
+    ChangeDate(state,action){
+      state.bookDate=action.payload;
+    },
+    changePaySuccess(state,action){
+      state.paySuccess = true;
+    }
   },
 });
 export const {
@@ -73,6 +82,7 @@ export const {
   removeCharityAmt,
   changePayActive,
   selectShow,
-  changeMovie,
+  changeMovie,ChangeDate,
+  changePaySuccess
 } = ticketSlicer.actions;
 export default ticketSlicer.reducer;

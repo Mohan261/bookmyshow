@@ -3,11 +3,18 @@ import "./MovieCard.css";
 import { Star } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { changeMovie } from "../Slicer/TicketSlicer";
+import { ChangeDate, changeMovie } from "../Slicer/TicketSlicer";
 const MovieCard = ({ data }) => {
   const dispatch = useDispatch()
+  const date=new Date()
+  const bDate = date.getDate();
+  function handleSelect(title){
+    dispatch(changeMovie(title));
+    dispatch(ChangeDate(bDate));
+  }
+
   return (
-    <div className="movie-card" onClick={()=>dispatch(changeMovie(data.title))}>
+    <div className="movie-card" onClick={()=>handleSelect(data.title)}>
       <Link to={`/bookmyshow/book/${data.title}`}>
         <div className="movie-img">
           <img src={data.img} alt={data.title} />
