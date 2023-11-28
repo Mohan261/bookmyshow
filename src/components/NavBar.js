@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const NavBar = () => {
   const nav = useNavigate();
   function handleHome() {
-    nav("/*");
+    nav("/bookmyshow/");
   }
   return (
     <div className="nav-bar">
